@@ -1,5 +1,4 @@
 
-
 **Hadoken = ** [[cmap:arrow.down]] [[cmap:arrow.downright]] [[cmap:arrow.right]] + [[cmap:btn-east.ps]] 
 
 **Charged Shot = ** [[cmap:hold-open]] [[cmap:btn-south.nin]] [[cmap:hold-close]] and release
