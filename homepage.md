@@ -1,9 +1,11 @@
 # Ameba Games Studio Wiki
 
 
-::::card
-:::card-header Card :::
-:::card-body
+:::: card
+::: card-header 
+Card Title
+:::
+::: card-body
 This is a body for a card
 :::
 ::::
