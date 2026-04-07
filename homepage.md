@@ -1,6 +1,8 @@
 # Ameba Games Studio Wiki
 
 
+
+
 ## What is it?
 It’s a file-based wiki for documentation about Ameba Games Studio. From meeting notes, design documents, lore story, to rambling notes, funny jokes and journals.
 
