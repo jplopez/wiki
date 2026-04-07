@@ -1,12 +1,12 @@
 # Ameba Games Studio Wiki
 
 
-:::card
+::::card
 :::card-header Card :::
 :::card-body
 This is a body for a card
 :::
-:::
+::::
 
 
 ## What is it?
