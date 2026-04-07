@@ -19,3 +19,7 @@ Custom features for Ameba:
 - [About wikmd](About wikmd) - The wiki engine powering this site
 - [Markdown cheatsheet](Markdown cheatsheet)
 - [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/) - The css style framework used in this wiki
+
+## Page Directory
+
+[[pagedirectory]]

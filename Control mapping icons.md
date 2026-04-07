@@ -1,9 +1,21 @@
 
+[[toc]]
+<br/>
+
+
+<div class="card" id="cmapexamples" >
+  <div class="card-header">Awesome Input Visuals</div>
+  <div class="card-body">
+
 **Hadoken = ** [[cmap:arrow.down]] [[cmap:arrow.downright]] [[cmap:arrow.right]] + [[cmap:btn-east.ps]] 
 
 **Charged Shot = ** [[cmap:hold-open]] [[cmap:btn-south.nin]] [[cmap:hold-close]] and release
 
 **360 move = ** [[cmap:arrow.down]] [[cmap:arrow.downright]] [[cmap:arrow.right]] [[cmap:arrow.upright]] [[cmap:arrow.up]] [[cmap:arrow.upleft]] [[cmap:arrow.left]] [[cmap:arrow.downleft]]
+
+  </div>
+</div>
+
 
 ## How to use it
 
