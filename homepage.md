@@ -1,7 +1,7 @@
 # Ameba Games Studio Wiki
 
 
-:::note
+:::card
 This is a note
 :::
 
