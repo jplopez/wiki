@@ -2,8 +2,12 @@
 
 
 :::card
-This is a note
+:::card-header Card :::
+:::card-body
+This is a body for a card
 :::
+:::
+
 
 ## What is it?
 It’s a file-based wiki for documentation about Ameba Games Studio. From meeting notes, design documents, lore story, to rambling notes, funny jokes and journals.
