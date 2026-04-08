@@ -1,22 +1,6 @@
 # Ameba Games Studio Wiki
 
 
-
-::::: card
-::: card-header
-Header
-:::
-::: card-body
-**Title**
-
-Body content.
-:::
-::: card-footer
-Footer
-:::
-:::::
-
-
 ## What is it?
 It’s a file-based wiki for documentation about Ameba Games Studio. From meeting notes, design documents, lore story, to rambling notes, funny jokes and journals.
 
