@@ -6,7 +6,7 @@
 
 The online editing offers some preview capabilities and toolbars with shortcuts to commonly used features like rich text, lists, insert images, links, etc. 
 
-![](https://localhost:5000/static/images/toolbar.png)
+![](http://localhost:5000/static/images/toolbar.png)
 
 ### Main Toolbar
 
@@ -32,6 +32,15 @@ The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card
 </div>
 ```
 
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
 In Markdown this would be:
 
 ```
@@ -48,6 +57,17 @@ Some quick example text to build on the card title and make up the bulk of the c
 :::
 ```
 
+::: class="card"
+:::: class="card-body"
+
+##### Card Title
+
+Some quick example text to build on the card title and make up the bulk of the card’s content.
+
+[Go Somewhere](https://localhost:5000)
+
+::::
+:::
 
 
 ## Plugins
