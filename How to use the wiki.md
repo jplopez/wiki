@@ -1,6 +1,9 @@
 [[toc depth="3"]] 
 
+
 ## Supported Markdown
+
+Read the [Markdown Cheatsheet](http://localhost:5000/Markdown%20cheatsheet) page
 
 ## Editing Online
 
