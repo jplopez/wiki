@@ -1,4 +1,4 @@
-[[toc]] 
+[[toc depth="3"]] 
 
 ## Supported Markdown
 
@@ -18,7 +18,7 @@ First row of toolbar, traditional options for rich text, plus preview, full scre
 A collection of commonly used Bootstrap components. Each button will insert at the cursor position the markdown syntax to use the component. 
 Since most boostrap components rely on `<div>` tags, the buttons use the `:::` syntax to represent enclosing divs. Nested divs gain one `:` per level. 
 
-**Example:**
+##### Example
 
 The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card/) is documented as: 
 
@@ -34,7 +34,7 @@ The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card
 
 To obtain the same in markdown:
 
-First Step: insert the card component using the [[icon:card-text]] button 
+###### First Step: insert the card component using the [[icon:card-text]] button 
 
 
 :::: row
@@ -69,7 +69,7 @@ Card content goes here.
 :::
 ::::
 
-Second Step, modify the content of the Card
+###### Second Step: modify the content of the Card
 
 :::: row
 ::: col-md-6
