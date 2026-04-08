@@ -18,7 +18,7 @@ First row of toolbar, traditional options for rich text, plus preview, full scre
 A collection of commonly used Bootstrap components. Each button will insert at the cursor position the markdown syntax to use the component. 
 Since most boostrap components rely on `<div>` tags, the buttons use the `:::` syntax to represent enclosing divs. Nested divs gain one `:` per level. 
 
-Example:
+**Example:**
 
 The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card/) is documented as: 
 
@@ -27,21 +27,26 @@ The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <a href="#" >Go somewhere</a>
   </div>
 </div>
 ```
 
-
 In Markdown this would be:
 
+
+:::: row
+::: col-md-6
+
 ```
 ::: card
 :::: card-body
 
 ##### Card Title
 
+::::: card-text
 Some quick example text to build on the card title and make up the bulk of the card’s content.
+:::::
 
 [Go Somewhere](https://localhost:5000)
 
@@ -49,17 +54,30 @@ Some quick example text to build on the card title and make up the bulk of the c
 :::
 ```
 
+
+:::
+
+::: col-md-6
+
+**Preview:**
+
 ::: card
 :::: card-body
 
 ##### Card Title
 
+::::: card-text
 Some quick example text to build on the card title and make up the bulk of the card’s content.
-
+:::::
 [Go Somewhere](https://localhost:5000)
 
 ::::
 :::
+
+:::
+::::
+
+
 
 
 ## Plugins
