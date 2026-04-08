@@ -32,11 +32,49 @@ The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card
 </div>
 ```
 
-In Markdown this would be:
+To obtain the same in markdown:
+
+First Step: insert the card component using the [[icon:card-text]] button 
 
 
 :::: row
 ::: col-md-6
+**Markdown:**
+
+```
+:::: card
+::: card-body
+**Card Title**
+
+Card content goes here.
+:::
+::::
+```
+
+
+:::
+
+::: col-md-6
+
+**Preview:**
+
+:::: card
+::: card-body
+**Card Title**
+
+Card content goes here.
+:::
+::::
+
+:::
+::::
+
+Second Step, modify the content of the Card
+
+:::: row
+::: col-md-6
+
+**Markdown:**
 
 ```
 ::: card
