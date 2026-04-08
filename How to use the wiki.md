@@ -44,8 +44,8 @@ The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card
 In Markdown this would be:
 
 ```
-::: class="card"
-:::: class="card-body"
+::: card
+:::: card-body
 
 ##### Card Title
 
@@ -57,8 +57,8 @@ Some quick example text to build on the card title and make up the bulk of the c
 :::
 ```
 
-::: class="card"
-:::: class="card-body"
+::: card
+:::: card-body
 
 ##### Card Title
 
