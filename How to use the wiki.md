@@ -6,7 +6,7 @@
 
 The online editing offers some preview capabilities and toolbars with shortcuts to commonly used features like rich text, lists, insert images, links, etc. 
 
-![](http://localhost:5000/static/images/toolbar.png)
+![](http://localhost:5000/static/images/toolbar.png){width="80%"}
 
 ### Main Toolbar
 
