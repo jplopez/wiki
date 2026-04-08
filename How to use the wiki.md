@@ -1,6 +1,54 @@
-## Homepage
+[[toc]] 
 
-The homepage is default the `homepage.md` file, this can't be changed. If this file doesn't exist create it in de wiki folder.
+## Supported Markdown
+
+## Editing Online
+
+The online editing offers some preview capabilities and toolbars with shortcuts to commonly used features like rich text, lists, insert images, links, etc. 
+
+![](https://localhost:5000/static/images/toolbar.png)
+
+### Main Toolbar
+
+First row of toolbar, traditional options for rich text, plus preview, full screen and undo/redo functions
+
+
+### Bootstrap Toolbar
+
+A collection of commonly used Bootstrap components. Each button will insert at the cursor position the markdown syntax to use the component. 
+Since most boostrap components rely on `<div>` tags, the buttons use the `:::` syntax to represent enclosing divs. Nested divs gain one `:` per level. 
+
+Example:
+
+The [bootstrap card component](https://getbootstrap.com/docs/5.3/components/card/) is documented as: 
+
+```
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+```
+
+In Markdown this would be:
+
+```
+::: class="card"
+:::: class="card-body"
+
+##### Card Title
+
+Some quick example text to build on the card title and make up the bulk of the card’s content.
+
+[Go Somewhere](https://localhost:5000)
+
+::::
+:::
+```
+
+
 
 ## Plugins
 
@@ -11,7 +59,7 @@ For now there are only a few supported.
 - `[[info]]`, `[[warning]]`, `[[danger]]`, `[[success]]` Adds a nice **alert message**.
 - `[[ page: some-page ]]` Allows to show an other page in the current one.
 
-[[success]] You are ready to go!
+[[#]] Go Somewhere
 
 ## Latex
 
