@@ -1,14 +1,20 @@
 # Ameba Games Studio Wiki
 
 
-:::: card
-::: card-header 
-Card Title
+
+::::: card
+::: card-header
+Header
 :::
 ::: card-body
-This is a body for a card
+**Title**
+
+Body content.
 :::
-::::
+::: card-footer
+Footer
+:::
+:::::
 
 
 ## What is it?
