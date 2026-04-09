@@ -21,7 +21,6 @@ First row of toolbar, traditional options for rich text, plus preview, full scre
 A collection of commonly used Bootstrap components. Each button will insert at the cursor position the markdown syntax to use the component. 
 Since most boostrap components rely on `<div>` tags, the buttons use the `:::` syntax to represent enclosing divs. Nested divs gain one `:` per level. 
 
-
 ::: {.alert .alert-info role="alert"}
 **Note:** This wiki uses the [Bootstrap 5.3](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 :::
