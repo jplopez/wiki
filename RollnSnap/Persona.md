@@ -81,30 +81,25 @@ persona does not need realism. They want *delight*.
 - A world that feels like a playful desk or messy room  
 
 
-# 🔄 **Adjacent Personas You Might Also Want**
-If you want, I can build these too:
+## Adjacent Personas
 
-### 1. **The Tinkerer Kid-at-Heart**  
+
+## 1. The Tinkerer Kid-at-Heart
+
 Loves toys, chain reactions, and silly physics. Plays for fun, not challenge.
 
-### 2. **The Completionist Engineer**  
+## 2. The Completionist Engineer
+
 Wants to optimize, perfect, and master every level. Loves optional challenges.
 
-### 3. **The Casual Relaxer**  
+## 3. The Casual Relaxer
+
 Plays to unwind. Prefers low pressure, cozy vibes, and simple solutions.
 
-### 4. **The Creator/Sharer**  
+## 4. The Creator/Sharer
+
 Wants to show off clever or funny solutions. Loves replayability and social features.
 
----
-
-If you want, I can now:
-- Build **a full persona sheet** with name, photo description, quotes, goals, fears, and behaviors  
-- Create **multiple personas** for different player types  
-- Map this persona to **specific game features** you should prioritize  
-- Compare this persona to the one you’re building for *Andeen*  
-
-Just tell me which direction you want to take next.
 
 # Newzoo Persona Analysis 
 
