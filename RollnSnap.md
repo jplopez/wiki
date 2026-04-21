@@ -15,6 +15,48 @@ The player must help the marble get to the finish line. However, the longer it t
 
 Cube Goldberg machines, Pinball games, and ASMR videos
 
+# Design
+
+
+## Level Design
+
+- Multiple valid solutions  
+- Encourage experimentation  
+- Early levels teach through play, not text  
+- Later levels introduce new objects that spark curiosity  
+
+## Objects & Interactions
+
+- Everyday items with exaggerated behavior  
+- Clear silhouettes  
+- Predictable physics with room for chaos  
+- Objects that combine in surprising ways  
+
+## Progression
+
+- Unlock new toys gradually  
+- Let players revisit old levels with new tools  
+- Optional challenges for mastery players  
+
+## UX
+
+- Drag, rotate, snap — intuitive and tactile  
+- Quick reset button  
+- Fast iteration loop  
+
+
+# Marketing
+
+- “Solve it your way” messaging  
+- Short GIFs of funny physics moments  
+- Before/after comparisons of clever solutions  
+- Lighthearted tone, not hardcore puzzle branding  
+
+Appeal to players who share clips like:
+- “I didn’t mean for this to work but it did”  
+- “This magnet yeeted my marble across the map and I love it”  
+
+
 # Features
 
 ## Controls 
