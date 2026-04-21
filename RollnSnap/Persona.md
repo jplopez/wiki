@@ -5,6 +5,7 @@
 ### Why this is the strongest fit
 
 Roll’n’Snap player:
+
 - Plays in short bursts (5–15 minutes)
 - Enjoys light, playful, low-pressure experiences
 - Likes simple controls and quick iteration
@@ -12,6 +13,7 @@ Roll’n’Snap player:
 - Plays while commuting, waiting, relaxing
 
 Aligns with The Time Filler, who:
+
 - Plays to pass time
 - Prefers mobile-friendly, easy-to-pick-up games
 - Likes humor, charm, and low friction
