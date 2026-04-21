@@ -2,6 +2,7 @@
 
 # Overview
 
+A creativity‑driven physics puzzle experience where players shape the route using everyday objects, discovering their own solutions through motion, momentum, and experimentation.
 
 :::: card
 ::: card-body
