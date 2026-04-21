@@ -83,7 +83,7 @@ persona does not need realism. They want *delight*.
 - A world that feels like a playful desk or messy room  
 
 
-## Adjacent Personas
+# Adjacent Personas
 
 
 ## 1. The Tinkerer Kid-at-Heart
