@@ -1,4 +1,6 @@
-## Persona Definition: The Creative Problem Solver
+# The Creative Problem Solver
+
+## Definition
 
 They love the aha! moment — the satisfaction of making something work through clever arrangement, timing, and physics. They enjoy experimenting, tinkering, and discovering unexpected solutions that feel uniquely theirs.
 
