@@ -9,7 +9,7 @@ The player can move and rotate objects in the level to help the marble progress.
 
 The player must help the marble get to the finish line. However, the longer it takes, and the more steps it takes to get there, the bigger the reward. 
 
-[Persona](./Persona)
+[Persona](/Persona)
 
 # Inspiration
 
