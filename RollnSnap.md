@@ -2,8 +2,19 @@
 
 # Overview
 
-Roll'n'Snap is a puzzle game, where you help a marble get to the finish line across obstacles made of everyday objects. 
-The player can move and rotate objects in the level to help the marble progress. Unlike games that reward efficiency and speed, Roll'n'Snap rewards creativity.
+
+:::: card
+::: card-body
+**Pitch**
+
+In Roll’n’Snap, your creativity leads the way. Guide a friendly marble through levels built from everyday objects you can move, rotate, and repurpose to your heart’s content. Shape the route, test ideas, and uncover solutions that feel uniquely yours, because every puzzle opens the door to your own way through.
+
+Each level hands you a set of objects—little contraptions waiting to be added, removed, or shifted into place. Once everything is arranged, you send the marble on its way and watch your setup come alive. A magnet might open a shortcut or launch you across the screen, a ramp might build the speed you need to clear a gap, and a well‑placed block can redirect your momentum at just the right moment. Every stage invites you to tinker with angles and timing, chasing that satisfying combination where all the pieces snap into place.
+
+:::
+::::
+
+
 
 # Player Experience
 
