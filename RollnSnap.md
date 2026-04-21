@@ -15,13 +15,24 @@ Each level hands you a set of objects—little contraptions waiting to be added,
 :::
 ::::
 
+# Audience 
 
+See [Persona](RollnSnap/Persona) page
+
+# Attention Magnets 
+
+- Art: Silly, 'dumb ways to die' aesthetic
+- Mechanics: bouncy, at times unpredictable, at times laughable
+- Twist: Like 'Incredible Machines'/'Marble Madness' but funnier/cute/silly
+- Sound: ASMR
+- Player Experience: Appeals to player creativity and uniqueness on their approach to solve the level
+
+- Odd Mechanic: the longer you take, and more steps you have, the bigger the reward. Opposite to common pattern of rewarding speed and efficiency. 
 
 # Player Experience
 
 The player must help the marble get to the finish line. However, the longer it takes, and the more steps it takes to get there, the bigger the reward. 
 
-[Persona](RollnSnap/Persona)
 
 # Inspiration
 
