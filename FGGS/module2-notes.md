@@ -1,4 +1,4 @@
-# Finishing Great Games That Sell: Module Summary
+# Finishing Great Games That Sell: Module 2 Summary
 
 > **Topic:** Building a Sustainable and Successful Indie Game Business
 
