@@ -96,6 +96,181 @@ Visual identity:
 
 ---
 
+You’re asking the right questions—this is exactly the level of paranoia Kiubo needs to be real, not just cute.
+
+I’ll go risk by risk and stay concrete and design‑oriented.
+
+---
+
+# 4. Risks and Mitigations 
+
+Kiubo can fail if:
+
+- It fights iOS instead of working with it.  
+- It drains battery or data.  
+- It’s unreliable under bad networks.  
+- It locks devs into your backend.  
+- It becomes a PII pipeline.
+
+So the design needs to be:
+
+- **Opportunistic, not constant** (for iOS & battery).  
+- **Local‑first, sync‑later** (for reliability).  
+- **Backend‑agnostic, protocol‑centric** (for dev control).  
+- **Minimal, rotating IDs only** (for security & privacy).
+
+
+### 1. iOS mobile restrictions
+
+**Main problems:**
+
+- **Background BLE scanning is heavily limited** (time‑sliced, throttled, mode‑dependent).  
+- **Background execution requires specific modes** (location, Bluetooth, VOIP, etc.).  
+- Apps that “just sit there scanning” will be killed or rejected.
+
+**Mitigations:**
+
+- **Use OS‑blessed patterns:**
+  - Register as a **Bluetooth accessory interaction** use case (where appropriate).
+  - Use **background modes** only where they clearly match Apple’s guidelines.
+- **Design for “opportunistic encounters” instead of constant scanning:**
+  - Scan in **short bursts** when:
+    - The app is opened.
+    - The user performs a relevant action (open map, open Kiubo screen).
+    - The OS wakes the app for other reasons (push, location, etc.).
+- **Leverage push + server matching:**
+  - Let the phone upload encounter “beacons” periodically.
+  - Do **co‑presence matching** on the server when BLE is unavailable.
+- **Explicit UX:**
+  - Make Kiubo an **opt‑in feature** with clear explanation: “Allow nearby encounters for in‑game bonuses.”
+
+**Design principle:**  
+Kiubo must **degrade gracefully** on iOS: fewer encounters, not broken behavior.
+
+
+
+### 2. Battery and data usage
+
+**Main risks:**
+
+- Continuous BLE scanning → battery drain.  
+- Frequent network sync → data usage complaints.  
+- Devs fear “this SDK will tank my app’s reviews.”
+
+**Mitigations:**
+
+- **Hard technical limits in the SDK:**
+  - Duty‑cycle BLE scanning (e.g., scan 5s every X minutes, configurable).
+  - Adaptive scanning: reduce frequency when:
+    - Battery is low.
+    - No encounters have been seen for a long time.
+- **Local‑first design:**
+  - Log encounters locally.
+  - **Batch sync** to server (e.g., every N encounters or every Y minutes, or on Wi‑Fi only).
+- **Configurable policies for devs:**
+  - `KiuboPowerProfile.Low/Medium/High`
+  - `SyncPolicy.WifiOnly / WifiOrCellular / Manual`
+- **Transparent metrics:**
+  - Provide devs with **battery & data usage estimates** in docs and sample analytics.
+
+**Design principle:**  
+Kiubo must be **resource‑polite by default**, with “aggressive” modes opt‑in and clearly labeled.
+
+
+
+### 3. Offline vs online, and reliability of “did Kiubo happen?”
+
+**Main risks:**
+
+- Player: “We were next to each other, why didn’t it trigger?”  
+- Dev: “I can’t debug if encounters are lost.”  
+- Network flakiness causing desync between phone and game account.
+
+**Mitigations:**
+
+- **Local truth first:**
+  - When two phones detect each other, **that encounter is final** on the device.
+  - It gets a **local encounter ID**, timestamp, and minimal peer ID.
+- **Deferred sync:**
+  - If offline, encounters are queued.
+  - When online, they sync to the server and then to the game account.
+- **Idempotent server API:**
+  - Encounters have unique IDs.
+  - Re‑sending the same encounter is safe (server ignores duplicates).
+- **Clear states in API:**
+  - `EncounterStatus.LocalOnly`, `Synced`, `RewardGranted`.
+- **Game‑side UX:**
+  - “You had 3 Kiubos while offline—rewards will sync when you’re online.”
+
+**Design principle:**  
+**Encounter detection and logging must not depend on network.** Online is for validation and rewards, not for deciding if Kiubo “happened.”
+
+
+
+### 4. Full developer control and server agnosticism
+
+**Main risks:**
+
+- Lock‑in: devs don’t want to depend on your SaaS.  
+- Legal/compliance: some studios must self‑host.  
+- Tech stack diversity: Unity on client, anything on server.
+
+**Mitigations:**
+
+- **Open, documented HTTP API spec:**
+  - Define a **minimal, stable JSON schema**:
+    - `POST /encounters`
+    - `GET /encounters`
+    - `POST /linkPlayer`
+  - No tech assumptions: just HTTP + JSON.
+- **Reference implementations:**
+  - Sample servers in Node, Go, Python, etc.
+  - Docker compose example.
+- **Pluggable backend in Unity SDK:**
+  - Default: “Kiubo Cloud” (your SaaS).
+  - Custom: dev provides base URL + auth + handlers.
+- **No hidden logic:**
+  - All encounter semantics are client‑visible.
+  - Server is just validation + reward logic.
+
+**Design principle:**  
+Kiubo is a **protocol + client SDK**, not “our servers or nothing.”
+
+
+
+### 5. Data security and PII avoidance
+
+**Main risks:**
+
+- Being responsible for PII.  
+- Regulatory exposure (GDPR, etc.).  
+- Devs misusing Kiubo payload to send sensitive data.
+
+**Mitigations:**
+
+- **Fixed, minimal payload by design:**
+  - Kiubo peer ID (random, rotating, non‑reversible).
+  - Encounter ID.
+  - Timestamp.
+  - Optional coarse context (e.g., “mode”, not GPS).
+- **No built‑in fields for:**
+  - Names, emails, phone numbers, IPs, GPS coordinates.
+- **Rotating identifiers:**
+  - Use **ephemeral IDs** (like exposure notification systems).
+  - Server can map ephemeral → player account, but SDK never exposes stable IDs to other clients.
+- **Custom data as dev responsibility:**
+  - If devs want to attach game‑specific data, they:
+    - Do it via their own server.
+    - Not via Kiubo’s encounter payload.
+- **Clear legal stance in docs:**
+  - “Kiubo is not intended for transmitting PII. The SDK does not expose fields for PII. Any additional data you attach on your own backend is your responsibility.”
+
+**Design principle:**  
+Kiubo’s **core protocol is PII‑hostile by design**—you literally can’t misuse it for personal data without going out of your way.
+
+
+
+
 # 5. Technical Modes
 
 Kiubo can support multiple encounter modes:
