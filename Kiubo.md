@@ -37,7 +37,6 @@ Examples:
 
 Kiubo becomes a **social meta‑layer** that any game can plug into.
 
----
 
 ## Developer‑Facing
 
