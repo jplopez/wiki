@@ -1,8 +1,8 @@
 # Finishing Great Games That Sell: Module 3 Summary
 
-::: hero
+
 > **Topic:** Applying Strategic Marketing and Design Principles to Indie Game Development
-::: 
+
 
 ## Key Concepts
 
