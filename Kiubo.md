@@ -93,13 +93,6 @@ Visual identity:
 - Motion lines (like someone waving)  
 - A mascot or icon shaped like a waving bubble  
 
----
-
-You’re asking the right questions—this is exactly the level of paranoia Kiubo needs to be real, not just cute.
-
-I’ll go risk by risk and stay concrete and design‑oriented.
-
----
 
 # 4. Risks and Mitigations 
 
@@ -266,7 +259,6 @@ Kiubo is a **protocol + client SDK**, not “our servers or nothing.”
 
 **Design principle:**  
 Kiubo’s **core protocol is PII‑hostile by design**—you literally can’t misuse it for personal data without going out of your way.
-
 
 
 
