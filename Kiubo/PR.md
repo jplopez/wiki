@@ -1,6 +1,8 @@
 [[toc]] 
 
-# Speech for Game Developers
+# Press Releases
+
+## Extended Version for Game Developers 
 
 Think about the moments when your players aren’t in front of their screens.
 
@@ -77,9 +79,9 @@ Not to replace social interaction, but to **weave your game’s community into t
 Here are **two versions** of the Kiubo pitch you asked for — one **emotional and human**, one **technical and developer‑friendly**.  
 Both are short, sharp, and designed to *land* with the people who make decisions.
 
----
 
-# Shorter Pitch for Producers, Designers
+
+## Shorter Pitch for Producers, Designers
 
 **Kiubo is about keeping your community alive in the moments between play.**
 
@@ -115,9 +117,9 @@ It’s human.
 
 And it gives your game a heartbeat that follows your players wherever they go.
 
----
 
-# TECHNICAL PITCH (for engineers, tech leads, and producers) 
+## Technical for engineers, tech leads, and producers 
+
 **Kiubo is the easiest way to add real‑world encounters to your game — without building any of the hard parts yourself.**
 
 Kiubo handles the messy, platform‑specific problems so you don’t have to:
