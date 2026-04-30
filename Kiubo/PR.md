@@ -4,6 +4,12 @@
 
 ## Extended Version for Game Developers 
 
+
+
+:::: card
+::: card-body
+
+
 Think about the moments when your players aren’t in front of their screens.
 
 They’re on the bus.  
@@ -76,9 +82,8 @@ A feeling that your game is part of the player’s life — not just their scree
 That’s why Kiubo exists.  
 Not to replace social interaction, but to **weave your game’s community into the everyday moments where connection feels the most human**.
 
-Here are **two versions** of the Kiubo pitch you asked for — one **emotional and human**, one **technical and developer‑friendly**.  
-Both are short, sharp, and designed to *land* with the people who make decisions.
-
+:::
+::::
 
 
 ## Shorter Pitch for Producers, Designers
