@@ -16,6 +16,17 @@ Think:
 
 But packaged for Unity devs.
 
+# Why
+
+Because it gives Unity devs:
+
+- A social mechanic they can’t build alone  
+- A feature players *love*  
+- A way to add real‑world magic to any genre  
+- A cross‑platform system that works with PC/console games  
+- A unique selling point for their game  
+
+And because **no one else is offering this**.
 
 # What It *Does* 
 
@@ -285,56 +296,6 @@ Kiubo is a **protocol + client SDK**, not “our servers or nothing.”
 Kiubo’s **core protocol is PII‑hostile by design**—you literally can’t misuse it for personal data without going out of your way.
 
 
-
-# Technical Modes
-
-Kiubo can support multiple encounter modes:
-
-### Mode A — BLE Encounter Mode (default)
-Closest to StreetPass.  
-Phones detect each other via BLE.
-
-### Mode B — Co‑Presence Mode
-Phones log location → server matches players who were in the same place.
-
-### Mode C — Event Mode
-QR/NFC scanning for conventions or meetups.
-
-### Mode D — Party Mode
-Local Wi‑Fi discovery for LAN‑like encounters.
-
-### Mode E — Cloud‑Linked Mode
-PC/console players link their account to the phone app.
-
----
-
-# 6. Game Design Patterns
-Kiubo enables new mechanics:
-
-### **1. Encounter Streaks**
-Meet someone daily → escalating rewards.
-
-### **2. Encounter Types**
-- Stranger  
-- Friend  
-- Guildmate  
-- Rival  
-- Rare encounter (low probability)  
-
-### **3. Encounter Collections**
-Like StreetPass puzzle pieces.
-
-### **4. Encounter‑Triggered Events**
-Boss spawns, loot drops, buffs.
-
-### **5. Encounter Economy**
-Encounters generate a currency (“Kiubits”?).
-
-### **6. Encounter Social Graph**
-Players build a map of who they’ve crossed paths with.
-
-
-
 # Business Model
 You can monetize Kiubo as:
 
@@ -352,15 +313,4 @@ You can monetize Kiubo as:
 For studios needing custom features.
 
 
-
-# Why It Could Succeed
-Because it gives Unity devs:
-
-- A social mechanic they can’t build alone  
-- A feature players *love*  
-- A way to add real‑world magic to any genre  
-- A cross‑platform system that works with PC/console games  
-- A unique selling point for their game  
-
-And because **no one else is offering this**.
 
