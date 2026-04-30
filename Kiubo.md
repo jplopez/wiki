@@ -1,6 +1,6 @@
 [[toc]]
 
-# 1. Core Concept
+# Core Concept
 
 **Kiubo = a cross‑device encounter engine for games.**  
 When two players with the companion app come near each other, something happens in the game world.
@@ -17,7 +17,7 @@ Think:
 But packaged for Unity devs.
 
 
-# 2. What It *Does* 
+# What It *Does* 
 
 ## Player‑Facing
 
@@ -91,9 +91,9 @@ Kiubo.Sync();
 - Local multiplayer experiences  
 
 
----
 
-# 3. Identity & Branding
+
+# Identity & Branding
 
 Kiubo has a *personality*:
 
@@ -116,9 +116,9 @@ Visual identity:
 - Motion lines (like someone waving)  
 - A mascot or icon shaped like a waving bubble  
 
----
 
-# 4. Risks and Mitigations 
+
+# Risks and Mitigations 
 
 Kiubo can fail if:
 
@@ -286,7 +286,7 @@ Kiubo’s **core protocol is PII‑hostile by design**—you literally can’t m
 
 
 
-# 5. Technical Modes
+# Technical Modes
 
 Kiubo can support multiple encounter modes:
 
@@ -333,9 +333,9 @@ Encounters generate a currency (“Kiubits”?).
 ### **6. Encounter Social Graph**
 Players build a map of who they’ve crossed paths with.
 
----
 
-# 7. Business Model
+
+# Business Model
 You can monetize Kiubo as:
 
 ### Asset Store Package
@@ -351,9 +351,9 @@ You can monetize Kiubo as:
 ### Enterprise License
 For studios needing custom features.
 
----
 
-# 8. Why It Could Succeed
+
+# Why It Could Succeed
 Because it gives Unity devs:
 
 - A social mechanic they can’t build alone  
