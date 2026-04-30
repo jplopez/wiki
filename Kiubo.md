@@ -14,7 +14,6 @@ Think:
 
 But packaged for Unity devs.
 
----
 
 # 2. What It *Does* 
 
@@ -68,7 +67,7 @@ Kiubo.Sync();
 - Reward rule editor  
 - Encounter heatmap viewer  
 
----
+
 
 # Audience
 
