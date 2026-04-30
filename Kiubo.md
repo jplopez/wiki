@@ -41,7 +41,7 @@ Kiubo becomes a **social meta‑layer** that any game can plug into.
 
 A Unity dev imports the Kiubo package and gets:
 
-### **A simple API**
+### A simple API
 ```csharp
 Kiubo.Start();
 Kiubo.OnEncounter += (Encounter e) => { GrantReward(e); };
@@ -49,20 +49,20 @@ Kiubo.GetEncounterHistory();
 Kiubo.Sync();
 ```
 
-### **Cross‑platform mobile SDK**
+### Cross‑platform mobile SDK
 - BLE beaconing  
 - BLE scanning  
 - Background‑safe encounter logging  
 - Privacy‑safe IDs  
 - Battery‑optimized scanning  
 
-### **Optional backend**
+### Optional backend
 - Encounter validation  
 - Anti‑spoofing  
 - Player linking (PC/console ↔ phone)  
 - Analytics  
 
-### **Unity editor tools**
+### Unity editor tools
 - Encounter simulator  
 - Reward rule editor  
 - Encounter heatmap viewer  
