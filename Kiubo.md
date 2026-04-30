@@ -1,3 +1,5 @@
+[[toc]]
+
 # 1. Core Concept
 
 **Kiubo = a cross‑device encounter engine for games.**  
