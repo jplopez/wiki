@@ -74,6 +74,7 @@ Kiubo.Sync();
 # Audience
 
 ## 1. Games that want players to collaborate and build community
+
 This is your strongest audience segment.
 
 These games benefit from Kiubo because **real‑world encounters reinforce in‑game social bonds**.
@@ -180,9 +181,8 @@ Even if they’re not full AR games, they benefit from real‑world interactions
 - “Move to play” is growing (Zombies Run, Pikmin Bloom).
 - AR games need **low‑friction social mechanics**.
 
----
 
-# 🧩 **6. Indie devs who want a unique hook**
+## 6. Indie devs who want a unique hook
 This is a sleeper audience.
 
 ### Why they care:
@@ -194,9 +194,10 @@ This is a sleeper audience.
 - Indies are constantly looking for **novel mechanics**.
 - Social features are hard to build — Kiubo lowers the barrier.
 
----
 
-# 🎯 **7. Studios building cross‑platform ecosystems**
+
+## 7. Studios building cross‑platform ecosystems
+
 PC/console game + mobile companion app = perfect Kiubo use case.
 
 ### Examples:
