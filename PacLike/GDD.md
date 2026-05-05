@@ -1,3 +1,5 @@
+[[toc]]
+
 # PacLike Game Design Document
 
 This document consolidates the group’s brainstorming and decisions into a structured design reference for the Pac-Man-inspired game project.
