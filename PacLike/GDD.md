@@ -1,4 +1,4 @@
-# Pac-Man-Inspired Game Design Document
+# PacLike Game Design Document
 
 This document consolidates the group’s brainstorming and decisions into a structured design reference for the Pac-Man-inspired game project.
 
@@ -55,41 +55,33 @@ A modernized Pac-Man-style game with retro neon aesthetics and enhanced mechanic
 ## 5. Difficulty Strategy
 
 Difficulty increases through:
-Ghost pathfinding frequency.
-Ghost speed.
-Turning flexibility (intersection-only → mid-path allowed).
-Reduced forgiveness windows for player input.
-Maze complexity (more portals, tighter corridors).
-Optional lighting intensity changes.
+
+1. Ghost pathfinding frequency.
+2. Ghost speed.
+3. Turning flexibility (intersection-only → mid-path allowed).
+4. Reduced forgiveness windows for player input.
+5. Maze complexity (more portals, tighter corridors).
+6. Optional lighting intensity changes.
 
 ## 6. Open Questions
 
-Should difficulty scaling be strictly linear or include spikes for variety?
-
-How many total levels should be included for the game jam version?
-
-Should lighting intensity affect gameplay difficulty or remain purely aesthetic?
+* Should difficulty scaling be strictly linear or include spikes for variety?
+* How many total levels should be included for the game jam version?
+* Should lighting intensity affect gameplay difficulty or remain purely aesthetic?
 
 ## 7. Action Items
 
-Define LevelSO data schema (fields for scene, prefab, progression).
-
-Create initial prefab for Level 1 with classic Pac-Man layout.
-
-Implement ghost pathfinding with adjustable recalculation frequency.
-
-Prototype glow/halo effects for characters and neon walls.
-
-Establish difficulty curve for first 10 levels.
+* Define LevelSO data schema (fields for scene, prefab, progression).
+* Create initial prefab for Level 1 with classic Pac-Man layout.
+* Implement ghost pathfinding with adjustable recalculation frequency.
+* Prototype glow/halo effects for characters and neon walls.
+* Establish difficulty curve for first 10 levels.
 
 ## 8. Future Considerations
 
-Expand beyond web build for broader platforms.
-
-Add multiplayer or cooperative modes.
-
-Introduce new power-ups beyond classic pellets.
-
-Explore procedural maze generation for replayability.
-
-This document serves as the Creative Concept Note and evolving Game Design Document for the Pac-Man-inspired project, capturing both the artistic vision and technical architecture.
+* Introduce other mechanics.
+  * Moving platforms or on/off platforms.
+  * Objects on walkable paths that trigger events when passing by
+    * Open door
+    * change path direction
+  * Air puffs that can push player and ghosts into a certain direction 
