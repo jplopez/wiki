@@ -10,7 +10,9 @@ This project is a gamejam Pacman-like submission (`PacLike`) focused on: faithfu
 
 This document consolidates the latest decisions on **player movement**, **ghost AI**, **difficulty progression**, **animation rules**, and **level storage architecture** for your Pac‑Man–inspired game.
 
+
 ## Portal Mechanics Twist
+
 
 **Baseline reference** 
 original Pac-Man side portals connect left and right map edges at fixed horizontal positions.
