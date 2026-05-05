@@ -54,13 +54,16 @@ When Pac‑Man hits a wall:
   - Change direction mid‑path (optional per difficulty tier).
 
 ### **2.2 Intelligence Scaling via Recalculation Frequency**
+
 Ghost “smartness” is controlled by how often they recalc their path:
+
 - Level 1: every **1–2 seconds**
 - Later levels: **higher frequency**, making them more reactive.
 
 This is your main difficulty lever.
 
 ### **2.3 Additional Difficulty Levers**
+
 - **Enable/disable mid‑path direction changes**.
 - **Enable/disable intersection‑only turning**.
 - **Ghost speed** increases per level.
@@ -71,6 +74,7 @@ This is your main difficulty lever.
 ## **3. Animation & Visual Effects**
 
 ### **3.1 Ghost Animation**
+
 - Ghosts have a **flailing / cloth‑like motion** to emphasize floating.
 - Each ghost has:
   - A **small circular shadow** beneath them.
@@ -78,6 +82,7 @@ This is your main difficulty lever.
   - A **tinted shadow** (e.g., blue ghost → slightly blue shadow).
 
 ### **3.2 Lighting & Glow**
+
 - Pac‑Man has a **soft glow** around him.
 - Ghosts have a **faint neon halo**.
 - Walls use **neon‑tube lighting**, giving a retro‑modern aesthetic.
@@ -90,8 +95,11 @@ This is your main difficulty lever.
 
 ## **4. Level Architecture & Storage**
 
+
 ### **4.1 Level Scriptable Object (LevelSO)**
+
 **Responsibilities:**
+
 - Stores the **ordered progression** of levels (linked list or array).
 - For each level entry, stores:
   - **Scene name** to load.
@@ -99,6 +107,7 @@ This is your main difficulty lever.
   - Optional: placement coordinates, scaling.
 
 **Does NOT store:**
+
 - Pellet positions  
 - Maze layout  
 - Ghost/player parameters  
@@ -109,7 +118,9 @@ Those belong to the **level prefab**.
 
 
 ### **4.2 Level Prefabs**
+
 Each level is a **single prefab** containing:
+
 - All **mazes** for that level.
 - The **Level Manager** instance.
 - Maze configuration components:
@@ -128,6 +139,7 @@ This keeps level data **self‑contained** and easy to iterate.
 
 
 ### **4.3 Scenes**
+
 Scenes are used for **visual style**, not level logic.
 
 Example:
@@ -139,7 +151,9 @@ The LevelSO simply points multiple levels to the same scene if needed.
 
 
 ### **4.4 Persistent Systems**
+
 These should live outside level prefabs and persist across loads:
+
 - **Player Controller**
 - **HUD Controller**
 - **Score & Lives Manager**
