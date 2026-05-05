@@ -31,7 +31,9 @@ Each level can tune:
 These parameters allow fine‑tuning difficulty and feel.
 
 ### 1.4 Wall Collision Feedback
+
 When Pac‑Man hits a wall:
+
 - A small **bounce animation** plays.
 - A **sound cue** triggers.
 - Pac‑Man’s chomp animation continues, but movement is halted.
