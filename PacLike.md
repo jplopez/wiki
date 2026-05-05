@@ -2,8 +2,10 @@
 
 # Game Idea
 
+
 This project is a gamejam Pacman-like submission (`PacLike`) focused on: faithful recreation, a strong twist, and overall game feel.
-- 
+
+
 # Game Design & Development Summary
 
 This document consolidates the latest decisions on **player movement**, **ghost AI**, **difficulty progression**, **animation rules**, and **level storage architecture** for your Pac‑Man–inspired game.
