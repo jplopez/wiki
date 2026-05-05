@@ -9,9 +9,11 @@ This project is a gamejam Pacman-like submission (`PacLike`) focused on: faithfu
 
 
 **Baseline reference** 
+
 original Pac-Man side portals connect left and right map edges at fixed horizontal positions.
 
 **PacLike twist**
+
 - Portals become color-coded links (neutral light by default, distinct colors in later levels to signal valid pairs).
 - Portal placement is broader than OG Pac-Man: both edge and mid-stage portal placements are expected to create tunnel-like routing.
 - Levels may contain multiple disconnected maze sections/rooms that are traversable only through portal links.
