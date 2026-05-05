@@ -5,12 +5,6 @@
 
 This project is a gamejam Pacman-like submission (`PacLike`) focused on: faithful recreation, a strong twist, and overall game feel.
 
-
-# Game Design & Development Summary
-
-This document consolidates the latest decisions on **player movement**, **ghost AI**, **difficulty progression**, **animation rules**, and **level storage architecture** for your Pac‑Man–inspired game.
-
-
 ## Portal Mechanics Twist
 
 
@@ -22,6 +16,11 @@ original Pac-Man side portals connect left and right map edges at fixed horizont
 - Portal placement is broader than OG Pac-Man: both edge and mid-stage portal placements are expected to create tunnel-like routing.
 - Levels may contain multiple disconnected maze sections/rooms that are traversable only through portal links.
 - Core level-design goal: layouts are no longer a single maze; use layered, room-like structures connected by intentional portal paths.
+
+
+# Game Design & Development Summary
+
+This document consolidates the latest decisions on **player movement**, **ghost AI**, **difficulty progression**, **animation rules**, and **level storage architecture** for your Pac‑Man–inspired game.
 
 ## 1. Player Movement System
 
