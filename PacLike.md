@@ -195,3 +195,10 @@ Difficulty increases through:
 4. **Player forgiveness windows** (can shrink over time).
 5. **Maze complexity** (more portals, tighter corridors).
 6. **Lighting intensity** (optional aesthetic difficulty).
+
+
+# Art (Music and Image)
+
+## Audio 
+
+Check out plug-ins like the Envosound for GarageBand to add that retro feel. And for your synths, you can explore the Twisted Electrons MEGAfm and the Envosound synth for those nostalgic game tones.
