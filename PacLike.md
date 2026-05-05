@@ -1,5 +1,5 @@
 [[toc]]
-# 🎮 Game Design & Development Summary
+# Game Design & Development Summary
 
 This document consolidates the latest decisions on **player movement**, **ghost AI**, **difficulty progression**, **animation rules**, and **level storage architecture** for your Pac‑Man–inspired game.
 
@@ -153,6 +153,7 @@ They reset only on:
 ## **5. Difficulty Strategy Summary**
 
 Difficulty increases through:
+
 1. **Ghost pathfinding frequency** (main lever).
 2. **Ghost speed**.
 3. **Turning flexibility** (intersection‑only → mid‑path allowed).
